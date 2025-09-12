@@ -1,0 +1,91 @@
+{
+  "greeting": "Hola a todos 🖐, soy",
+  "role": "Desarrollador Web y de Software",
+  "download_cv": "Descargar CV",
+  "menu": {
+    "home": "Inicio",
+    "aboutme": "Sobre mí",
+    "services": "Superpoderes",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "certificates": "Certificados",
+    "contact": "Contáctame"
+  },
+  "aboutme": {
+    "title": "¿Quién soy?",
+    "paragraph1": "Soy estudiante avanzado de Ingeniería en Sistemas de Información en la UTN – Facultad Regional Tucumán. A lo largo de mi formación también me capacité en desarrollo web Full Stack en Code House y realicé cursos de Python con Django y MySQL. Mi lenguaje principal es Python, con el que trabajé en análisis de datos, desarrollo web y sistemas de escritorio.",
+    "paragraph2": "Me apasiona la tecnología y disfruto crear proyectos funcionales y bien pensados. Actualmente estoy enfocando mi camino hacia la ciberseguridad, un área que me entusiasma mucho y en la que quiero seguir formándome para especializarme. Me considero autodidacta, curioso y comprometido con el aprendizaje continuo."
+  },
+ "services": {
+  "title": "Superpoderes",
+  "subtitle": "Fortalezas y compromiso"
+},
+"cards": {
+  "teamwork": {
+    "title": "Trabajo en equipo y comunicación",
+    "description": "Disfruto colaborar en entornos dinámicos, fomentando la confianza y manteniendo una comunicación clara para que todos avancemos en la misma dirección."
+  },
+  "problemSolving": {
+    "title": "Resolución de problemas",
+    "description": "Enfrento cada reto con creatividad y pensamiento analítico, buscando soluciones prácticas que generen un impacto positivo."
+  },
+  "adaptability": {
+    "title": "Adaptabilidad y aprendizaje continuo",
+    "description": "Me adapto con facilidad a nuevas tecnologías y entornos, siempre con curiosidad y entusiasmo por aprender y crecer profesionalmente."
+    },
+  "quality": {
+    "title": "Compromiso con la calidad",
+    "description": "Cuido cada detalle de mi trabajo para asegurar resultados sólidos, consistentes y con altos estándares de excelencia."
+  },
+  "timelyDelivery": {
+    "title": "Entrega puntual de proyectos",
+    "description": "Soy organizado y meticuloso con los plazos, garantizando entregas a tiempo sin comprometer la calidad."
+  },
+  "businessValue": {
+    "title": "Enfoque en el valor para el negocio",
+    "description": "Más allá del código, busco crear soluciones que aporten valor real, potencien resultados y generen beneficios tangibles para la empresa."
+  }
+}
+,
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologías y Herramientas"
+  }
+  ,
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Proyectos más relevantes",
+    "btnGit": "Ver GitHub",
+    "btnProject": "Ver Proyecto",
+    "deltaSport1": {
+      "nombre": "Delta Sport",
+      "p1": "El proyecto JAVASCRIPT - DELTA S-PORT se centra en el desarrollo de una tienda en línea de indumentaria deportiva. Permite a los usuarios explorar un catálogo completo de productos organizados por categorías y aplicar filtros dinámicos para encontrar lo que buscan con mayor facilidad. El diseño está optimizado para ofrecer una experiencia intuitiva y rápida en cualquier dispositivo.",
+      "p2": "La aplicación integra un sistema de carrito de compras donde los clientes pueden agregar, eliminar y modificar productos antes de finalizar su pedido. Además, cuenta con una sección de gestión que facilita la administración del inventario y el control de ventas. Todo el proyecto fue desarrollado con buenas prácticas de JavaScript, asegurando código limpio, modular y escalable."
+   
+    },
+    "deltaSport2": {
+      "nombre": "Delta Sport",
+      "p1": "El proyecto JAVASCRIPT - DELTA S-PORT se centra en el desarrollo de una tienda en línea de indumentaria deportiva. Permite a los usuarios explorar un catálogo completo de productos organizados por categorías y aplicar filtros dinámicos para encontrar lo que buscan con mayor facilidad. El diseño está optimizado para ofrecer una experiencia intuitiva y rápida en cualquier dispositivo.",
+      "p2": "La aplicación integra un sistema de carrito de compras donde los clientes pueden agregar, eliminar y modificar productos antes de finalizar su pedido. Además, cuenta con una sección de gestión que facilita la administración del inventario y el control de ventas. Todo el proyecto fue desarrollado con buenas prácticas de JavaScript, asegurando código limpio, modular y escalable."
+    }
+  },
+  "certificates": {
+    "title": "Certificados",
+    "subtitle": "Certificados Destacados"
+  },
+  "contact": {
+    "title": "¡Hablemos!",
+    "subtitle": "Pregunta lo que quieras o simplemente di hola...",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Guillermo Acuña",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "guillermo@ejemplo.com",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Hola Mundo!",
+      "sendButton": "Enviar"
+    }
+    
+  }
+
+}
