@@ -17,6 +17,7 @@ const Btn_languaje = () => {
         data-aos="fade-down"
         data-aos-duration="2000"
         onClick={() => changeLang("es")}
+        translate="no"
       >
         ES
       </button>
@@ -28,6 +29,7 @@ const Btn_languaje = () => {
         data-aos="fade-down"
         data-aos-duration="2000"
         onClick={() => changeLang("en")}
+        translate="no"
       >
         EN
       </button>

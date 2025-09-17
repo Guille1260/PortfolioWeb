@@ -30,13 +30,14 @@ const Services = () => {
       </article>
 
       <article className="container_services">
-        <div className="container_card" data-aos="zoom-in-up">
+        <div className="container_card" data-aos="zoom-in-up"  data-aos-duration="5000">
           {servicesConfig.map(({ key, icon }) => (
             <Card_services
               key={key}
               image={icon}
               title={t(`cards.${key}.title`)}
               description={t(`cards.${key}.description`)}
+              data-aos="flip-left" data-aos-duration="5000"
             />
           ))}
         </div>

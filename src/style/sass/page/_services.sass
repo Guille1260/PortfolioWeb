@@ -1,6 +1,8 @@
 .section_services
     height: 100%
     margin-top: 10rem
+    @media screen and ( max-width: 767px )
+        scroll-margin-top: 80px
     .container_title
         width: 100%
         text-align: center
@@ -27,13 +29,13 @@
         .container_card
             margin-top: 2rem
             justify-items:   center
-            width: 70%
+            width: 80%
             display: grid
-            gap: 2rem
+            gap: 2em
             grid-template-columns: repeat(1,1fr)
             @media screen and ( min-width: 1024px  )
                 grid-template-columns: repeat(2,1fr)
-            @media screen and ( min-width: 1440px  )
+            @media screen and ( min-width: 1300px  )
                 grid-template-columns: repeat(3,.5fr)
             .card
                 
@@ -41,7 +43,7 @@
                 border: 1px solid #424242
                 color: #fff
                 max-width: 400px
-                height: 100%
+                // // height: 100%
                 margin: 10px
                 transition: all 300ms
                 border-radius: 10px

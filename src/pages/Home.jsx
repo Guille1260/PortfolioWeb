@@ -60,7 +60,7 @@ const Home = () => {
               alt="Ícono según tema"
             />
             {/* Texto de escritorio */}
-            <h2 className="h2_desck">
+            <h2 className="h2_desck" translate="no">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -76,7 +76,7 @@ const Home = () => {
             </h2>
 
             {/* Texto de móvil */}
-            <h2 className="h2_movil text-center">
+            <h2 className="h2_movil text-center" translate="no">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
