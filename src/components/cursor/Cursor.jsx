@@ -51,10 +51,11 @@ const Cursor = () => {
       if (!cursorWave.current) return;
       const clone = cursorWave.current.cloneNode(true);
       clone.classList.add("wave--clone");
+      clone.style.position = "fixed"; // 🔑 hace que funcione en toda la pantalla
       clone.style.left = `${e.clientX - WAVE / 2}px`;
       clone.style.top = `${e.clientY - WAVE / 2}px`;
       document.body.appendChild(clone);
-      setTimeout(() => clone.remove(), 1000);
+      clone.addEventListener("animationend", () => clone.remove());
     };
 
     window.addEventListener("mousemove", handleMouseMove, { passive: true });

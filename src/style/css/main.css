@@ -13,13 +13,13 @@
 }
 
 #dark {
-  background: #0d0d0d;
+  background: #121212;
   color: #ccc;
 }
 
 #light {
   background: #f8f8f8;
-  color: #424242;
+  color: #121212;
 }
 
 #texto_negro {
@@ -159,6 +159,27 @@
     transform: rotate(360deg) translate(-100px) rotate(-360deg);
   }
 }
+@keyframes click-animation-circle {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+@keyframes waveAnim {
+  0% {
+    transform: scale(0);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
 #light .link_menu_desck {
   color: black;
 }
@@ -243,7 +264,7 @@
   filter: drop-shadow(5px 5px 4px rgba(61, 59, 59, 0.5));
 }
 #light .cursor-dot {
-  background: #0d0d0d;
+  background: #585757;
 }
 #light .cursor-aura {
   background: rgba(13, 13, 13, 0.1);
@@ -534,6 +555,11 @@
   border: none;
   opacity: 0.9;
 }
+.container_header .container_right .container_logo button:hover {
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  opacity: 0.8;
+}
 .container_header .container_right .container_logo button img {
   width: 100%;
 }
@@ -740,10 +766,10 @@ select,
 
 .cursor-dot {
   position: fixed;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
-  background: #fff;
+  background: #9e9d9d;
   pointer-events: none;
   z-index: 10000;
   transform: translate(-50%, -50%);
@@ -790,12 +816,13 @@ select,
 }
 
 .wave {
-  position: absolute;
+  position: fixed;
   width: 80px;
   height: 80px;
   border-radius: 50%;
   pointer-events: none;
   display: none;
+  z-index: 9999;
 }
 @media screen and (max-width: 1023px) {
   .wave {
@@ -811,6 +838,7 @@ select,
 .wave .shape.circle {
   border-radius: 50%;
   animation: click-animation-circle 3s ease-out;
+  z-index: 9999;
 }
 
 .wave .shape.circle.big {
@@ -831,32 +859,12 @@ select,
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  position: absolute;
+  position: fixed;
   pointer-events: none;
   animation: waveAnim 0.9s ease-out forwards;
+  z-index: 9999;
 }
 
-@keyframes click-animation-circle {
-  0% {
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 0;
-  }
-}
-@keyframes waveAnim {
-  0% {
-    transform: scale(0);
-    opacity: 0.6;
-  }
-  100% {
-    transform: scale(2.5);
-    opacity: 0;
-  }
-}
 .section_home .hero__backtext {
   position: absolute;
   top: 0;
@@ -1703,7 +1711,7 @@ select,
 }
 @media screen and (min-width: 769px) {
   .section_contact .container_contact .contact_left .container_info .container_redes img {
-    width: 20%;
+    width: 15%;
   }
 }
 .section_contact .container_contact .contact_right {
