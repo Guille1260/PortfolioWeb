@@ -12,6 +12,7 @@ import Skills from "./pages/Skills.jsx";
 import { initReactI18next } from "react-i18next";
 import es from './i18n/es.json';
 import en from './i18n/en.json';
+import Cursor from "./components/cursor/Cursor.jsx";
 const savedLang = localStorage.getItem("lang") || "es";
 i18next.use(initReactI18next).init({
   lng: savedLang,
@@ -31,6 +32,7 @@ function App() {
     <>
      
       <div className="" id={theme}>
+        <Cursor/>
         <Main_header/>
         <div className="container_wrapper">
           <Home/>
