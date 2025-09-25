@@ -1,0 +1,47 @@
+@use '../base/_fonts' as *
+@use '../utils/_animations' as *
+@media screen and ( min-width: 1024px)
+    .section_home
+        .container_mid
+            grid-area: mid
+            padding: 4rem 50px
+            align-content: stretch
+            justify-items: start
+        .container_rol
+            .cursor
+                height: 10px
+        .container_cv
+            a
+              transition: all .3s ease
+              &:hover
+                  transform: translateX(50px)
+        .hero_number 
+            display: block
+            position: absolute
+            right: 100px
+            bottom: -50px
+            font-family: monospace
+            font-size: 20rem
+            color: #424242
+            z-index: 1
+            font-weight: 100
+            text-shadow: rgba(255, 0, 0, .4) -2px 0, rgba(0, 255, 255, .4) 2px 0
+            -webkit-animation-duration: .5s
+            animation-duration: .5s
+            -webkit-animation-fill-mode: both
+            animation-fill-mode: both
+            -webkit-animation-iteration-count: infinite
+            animation-iteration-count: infinite
+            -webkit-animation-name: glitch
+            animation-name: glitch
+            -webkit-animation-timing-function: ease-in-out
+            animation-timing-function: ease-in-out
+            .numbre
+                font-family: monospace
+        .hero__backtext 
+            overflow: hidden
+            letter-spacing: 3rem
+            font-size: 13rem
+            line-height: 20rem           
+    
+ 

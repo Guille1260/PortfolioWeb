@@ -1,0 +1,86 @@
+@use '../utils/_animations' as  *
+@use '../base/_fonts' as *
+.section_about_me
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 4rem
+    @media screen and ( min-width: 1024px  )
+        height: 100vh
+    @media screen and ( max-width: 767px )
+                scroll-margin-top: 10px
+    .container_about_me
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 4rem
+        margin: 0 2rem
+        width: 100%
+        max-width: 1000px
+        flex-direction: column
+        @media screen and ( min-width: 1024px  )
+            flex-direction: row
+        .container_image
+            position: relative
+            width: 400px
+            aspect-ratio: 3 / 3
+            align-content: center
+            
+            @media screen and ( min-width: 1024px  )
+                max-width: 400px
+                width: 100%
+                aspect-ratio: 2 / 3
+                // &::before
+                //     content: ""
+                //     position: absolute
+                //     right: 35px
+                //     bottom: -20px
+                //     display: block
+                //     width: 100%
+                //     height: 100%
+                //     max-width: 300px
+                //     border: 2px solid #424242
+            img
+                padding: 2rem
+                width: inherit
+                @media screen and ( min-width: 1024px  )
+                    padding: 0rem
+        .container_info
+            display: flex
+            flex-direction: column
+            width: 80%
+            h2
+                font-size: 1.4rem
+                
+            spam
+                font-size: 5rem
+            p
+                margin: 1rem 0
+                font-size: 1rem
+                line-height: 2rem
+                display: block
+                margin-block-start: 1em
+                margin-block-end: 1em
+                margin-inline-start: 0px
+                margin-inline-end: 0px
+                unicode-bidi: isolate
+                font-family: $letra
+              
+            @media screen and ( min-width: 1440px  )
+                width: 100%
+                h2
+                    font-size: 2.6rem
+                h3
+                    width: 100%
+                    font-size: 6rem
+                p
+                    margin: 1rem 0
+                    font-size: 1.4rem
+                    line-height: 2rem
+                    margin-block-start: 1em
+                    margin-block-end: 1em
+                    margin-inline-start: 0px
+                    margin-inline-end: 0px
+                    unicode-bidi: isolate
+                     

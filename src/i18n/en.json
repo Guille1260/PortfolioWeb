@@ -1,0 +1,96 @@
+{
+  "loader":"Welcome",
+  "greeting": "Hello everyone 🖐, I am",
+  "role": "Web and Software Developer",
+  "download_cv": "Download CV",
+  "menu": {
+    "home": "Home",
+    "aboutme": "About me",
+    "services": "Superpowers",
+    "skills": "Skills",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "contact": "Contact me"
+  },
+  "aboutme": {
+    "title": "Who am I?",
+    "paragraph1": "I am an advanced student of Information Systems Engineering at UTN – Tucumán Regional Faculty. Throughout my studies, I also trained in Full Stack web development at Code House and completed courses in Python with Django and MySQL. My main language is Python, with which I have worked in data analysis, web development, and desktop systems.",
+    "paragraph2": "I am passionate about technology and enjoy creating functional and well-thought-out projects. Currently, I am focusing my path on cybersecurity, an area that excites me and in which I want to continue training to specialize. I consider myself self-taught, curious, and committed to continuous learning."
+  },
+  "services": {
+    "title": "Superpowers",
+    "subtitle": "Strengths and commitment"
+  },
+"cards": {
+  "teamwork": {
+    "title": "Teamwork and Communication",
+    "description": "I enjoy collaborating in dynamic environments, fostering trust and keeping communication clear so everyone moves in the same direction.",
+    "image": "../src/assets/icons/users.svg"
+  },
+  "problemSolving": {
+    "title": "Problem Solving",
+    "description": "I approach every challenge with creativity and analytical thinking, aiming for practical solutions that deliver real impact.",
+    "image": "/src/assets/icons/puzzle.svg"
+  },
+  "adaptability": {
+    "title": "Adaptability and Continuous Learning",
+    "description": "I quickly adapt to new technologies and environments, always eager to learn, improve, and grow professionally.",
+    "image": "/src/assets/icons/trendingup.svg"
+  },
+  "quality": {
+    "title": "Commitment to Quality",
+    "description": "I pay close attention to every detail, ensuring solid, consistent results that meet the highest standards of excellence.",
+    "image": "/src/assets/icons/badge.svg"
+  },
+  "timelyDelivery": {
+    "title": "On-Time Project Delivery",
+    "description": "I am organized and reliable with deadlines, delivering on time without compromising quality.",
+    "image": "/src/assets/icons/clock.svg"
+  },
+  "businessValue": {
+    "title": "Focused on Business Value",
+    "description": "Beyond writing code, I aim to create solutions that add real value, drive results, and generate tangible benefits for the business.",
+    "image": "/src/assets/icons/rocket.svg"
+  }
+}
+,
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Most Relevant Projects",
+    "btnGit": "View GitHub",
+    "btnProject": "View Project",
+    "deltaSport1": {
+      "nombre": "Delta Sport",
+      "p1": "The JAVASCRIPT - DELTA S-PORT project focuses on developing an online sportswear store. It allows users to explore a complete catalog of products organized by categories and apply dynamic filters to find what they are looking for more easily. The design is optimized to provide an intuitive and fast experience on any device.",
+      "p2": "The application integrates a shopping cart system where clients can add, remove, and modify products before completing their order. It also includes a management section that facilitates inventory administration and sales control. The entire project was developed following good JavaScript practices, ensuring clean, modular, and scalable code."
+    },
+    "deltaSport2": {
+      "nombre": "Delta Sport",
+      "p1": "The JAVASCRIPT - DELTA S-PORT project focuses on developing an online sportswear store. It allows users to explore a complete catalog of products organized by categories and apply dynamic filters to find what they are looking for more easily. The design is optimized to provide an intuitive and fast experience on any device.",
+      "p2": "The application integrates a shopping cart system where clients can add, remove, and modify products before completing their order. It also includes a management section that facilitates inventory administration and sales control. The entire project was developed following good JavaScript practices, ensuring clean, modular, and scalable code."
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "subtitle": "Highlighted Certificates"
+  },
+  "contact": {
+    "title": "Let's Talk!",
+    "subtitle": "Ask anything or just say hi...",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Guillermo Acuña",
+      "emailLabel": "Email",
+      "emailPlaceholder": "guillermo@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Hello World!",
+      "sendButton": "Send"
+    }
+  }
+  
+  
+}

@@ -1,0 +1,143 @@
+@use '../base/_fonts' as *
+.section_projects
+    height: 100%
+    width: 100%
+    margin-top: 10rem
+    @media screen and ( max-width: 767px )
+        scroll-margin-top: 80px
+    .container_projects
+        margin: 1rem
+        .container_title
+            width: 100%
+            text-align: center
+            h2
+                font-size: 1rem
+            h3
+                font-size: 1.3rem
+            @media screen and ( min-width:425px  )
+                h2
+                    font-size: 1.3rem
+                h3
+                    font-size: 1.8rem
+            @media screen and ( min-width:1024px  )
+                h2
+                    font-size: 2rem
+                h3
+                    font-size: 3.6rem
+        .container_boxs
+            display: grid
+            grid-template-areas: "botones""proyectos"
+            justify-content: center
+            margin-top: 4rem
+            .container_btns
+                width: 100%
+                height: 100px
+                grid-area: botones
+                text-align: center 
+                align-content: center
+                border: 1px solid #ffffff
+                button
+                    color: #ff00b3
+                    text-transform: uppercase
+                    &:hover
+                        color: #fff
+                        transform: scale(1.1)
+            .conteiner_projects
+                grid-area: proyectos
+                width: 100%
+                display: grid
+                grid-template-columns: repeat(1, 1fr)
+                gap: 7rem 5rem
+                padding: 0 1.7rem
+                margin-top: 4rem
+                @media screen and ( min-width:1330px  )
+                    display: grid
+                    grid-template-columns: repeat(2, 1fr)
+                .item_projects
+                    background-color: #161616
+                    border-color: #424242
+                    box-shadow: 20px 20px #444
+                    margin-top: 4rem
+                    padding: 0 2rem 2rem
+                    max-width: 500px
+                    min-width: 100px
+                    width: 100%
+                    height: max-content
+                    border: 1px solid #424242
+                    .project_box
+                        transform: translateY(-6rem)
+                        h3
+                            font-family: $letra-parrafo
+                        .cover_project
+                            width: 100%
+                            aspect-ratio: 16 / 9 // todas iguales, widescreen
+                            border: 1px solid #ffffff
+                            border-radius: 1rem
+                            display: block
+                            object-fit: cover
+                            filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5))
+
+                        .project_text
+                            margin: 1rem 0 2rem
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
+                            font-size: .9rem
+                            line-height: 1.6rem
+                            p
+                                display: block
+                                font-family: $letra
+                                margin-block-start: 1em
+                                margin-block-end: 1em
+                                margin-inline-start: 0px
+                                margin-inline-end: 0px
+                                unicode-bidi: isolate
+                    .project_details
+                        display: flex
+                        flex-direction: column
+                        align-items: end
+                        gap: 1.5rem
+                        .projects_icon
+                            display: flex
+                            flex-wrap: wrap
+                            gap: .6rem
+                            img
+                                height: 35px
+                                width: 35px
+                    
+                        .container_links
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            width: 100%
+                            flex-direction: column
+                            gap: 1rem
+                            @media screen and (min-width: 450px)
+                                flex-direction: row
+                                justify-content: center
+                            .btns_links
+                                display: flex
+                                flex-direction: column
+                                align-items: center
+                                gap: 1rem
+                                width: 100%
+
+                                a
+                                    display: flex
+                                    align-items: center
+                                    justify-content: center
+                                    padding: 0.8rem 1.5rem
+                                    width: clamp(160px, 40%, 220px)
+                                    min-height: 45px
+                                    color: #ffffff
+                                    background-color: #424242
+                                    border: none
+                                    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
+                                    font-size: clamp(0.8rem, 2vw, 1rem)
+                                    letter-spacing: 0.1rem
+                                    text-decoration: none
+                                    text-align: center
+                                    clip-path: polygon( 0 0, 12% 0, 14% 8%, 85% 8%, 87% 0, 100% 0, 100% 16%, 96% 24%, 96% 76%, 100% 84%, 100% 100%, 87% 100%, 85% 92%, 14% 92%, 12% 100%, 0 100%, 0 84%, 4% 76%, 4% 24%, 0 16%)
+                                    transition: transform 0.2s ease, background-color 0.3s ease
+                                    &:hover
+                                        transform: translateY(-4px)
+                                        background-color: #333
+                                        opacity: .8

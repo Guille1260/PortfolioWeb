@@ -1,0 +1,89 @@
+.section_services
+    height: 100%
+    margin-top: 10rem
+    @media screen and ( max-width: 767px )
+        scroll-margin-top: 80px
+    .container_title
+        width: 100%
+        text-align: center
+        h2
+            
+            font-size: 1rem
+        h3
+            font-size: 1.3rem
+            
+        @media screen and (min-width: 425px)
+            h2
+                font-size: 1.3rem
+            h3
+                font-size: 1.8rem
+        @media screen and (min-width: 1024px)
+            h2
+                font-size: 2rem
+            h3
+                font-size: 3.6rem
+    .container_services
+        width: 100%
+        display: flex
+        justify-content: center
+        .container_card
+            margin-top: 2rem
+            justify-items:   center
+            width: 80%
+            display: grid
+            gap: 2em
+            grid-template-columns: repeat(1,1fr)
+            @media screen and ( min-width: 1024px  )
+                grid-template-columns: repeat(2,1fr)
+            @media screen and ( min-width: 1300px  )
+                grid-template-columns: repeat(3,.5fr)
+            .card
+                
+                background: #ffffff0d
+                border: 1px solid #424242
+                color: #fff
+                max-width: 400px
+                // // height: 100%
+                margin: 10px
+                transition: all 300ms
+                border-radius: 10px
+                box-shadow: 10px 10px #444
+                &:hover
+                    box-shadow: 20px 20px #444
+                    .cover
+                        img
+                            top: 0px
+                            filter: none
+                    .description
+                        transform: translateX(.2rem)
+                .cover
+                    border-radius: 10px
+                    width: 100%
+                    max-height: 200px
+                    position: relative
+                    overflow: hidden
+                    opacity: .8
+                    background: #ccc
+                    img
+                        max-width: 50%
+                        display: block
+                        margin: auto
+                        position: relative
+                        top: 20px
+                        z-index: 1
+                        filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5))
+                        transition: all 400ms
+            .description
+                margin-top: -10px
+                padding: 20px
+                border-radius: 0px 0px 20px 20px
+                transition: all 300ms    
+                h3
+                    font-size: 1.5rem
+                    margin-top: 10px               
+                p
+                    margin-top: 10px
+                    font-size: 1rem
+                    line-height: 1.4rem
+                    opacity: .6
+           

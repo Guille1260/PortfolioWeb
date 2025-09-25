@@ -1,0 +1,111 @@
+@use '../base/_fonts' as *
+@use '../utils/_animations' as *
+.section_home
+    .hero__backtext 
+      position: absolute
+      top: 0
+      text-transform: uppercase
+      pointer-events: none
+      unicode-bidi: isolate
+      overflow: hidden
+      max-width: 90%
+    .hero_union 
+      position: absolute
+      top: 5rem
+      left: 1rem
+      display: flex
+      flex-direction: column
+      gap: 40px
+      @media screen and ( min-width:768px  )
+        top: 7rem
+        left: 8rem
+      .hero_square 
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        gap: 10px
+        width: 22px
+        height: 22px
+        animation: rotate-right 1s infinite forwards
+        span 
+          width: 6px
+          height: 6px
+          background-color: #ffffff
+          border-radius: 50% 
+        
+    .hero_line 
+      position: absolute
+      left: 0px
+      bottom: 50%
+      width: 40px
+      height: 6px
+      background-color: #424242
+      animation: move-left 2s infinite alternate
+      @media screen and ( min-width:768px  )
+        width: 100px
+    .hero_line_right 
+      left: auto
+      right: 0px
+      animation: move-right 2s infinite alternate
+      
+    .hero_photo_ctn 
+        position: absolute
+        top: 30px
+        right: 100px
+        pointer-events: none
+        @media screen and ( max-width: 1440px )
+            display: none
+        .hero_photo 
+            animation: pulse 1s infinite
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 42vw
+            height: 42vw
+            background-color: #0000000d
+            border-radius: 50%
+            div 
+                display: flex
+                align-items: center
+                justify-content: center
+                width: 50%
+                height: 50%
+                background-color: #0006
+                border-radius: 50%
+                img 
+                    width: 60%
+                    height: 60%
+                    border-radius: 50%
+                    animation: rotate 20s infinite linear
+                    opacity: .9
+    .hero__paragraph 
+      // border: 1px solid #fff
+      position: absolute
+      bottom: 0px
+      display: flex
+      flex-direction: column
+      padding: 0 4rem
+      font-family: monospace
+      letter-spacing: 3.6rem
+      line-height: 5rem
+      color: #424242
+      pointer-events: none
+      @media screen and ( max-width: 1023px  )
+        display: none
+      .caja
+        display: flex
+        span 
+          display: block
+          font-size: .8rem
+          font-weight: 100
+          text-shadow: rgba(255, 0, 0, .4) -2px 0, rgba(0, 255, 255, .4) 2px 0
+          -webkit-animation-duration: .5s
+          animation-duration: .5s
+          -webkit-animation-fill-mode: both
+          animation-fill-mode: both
+          -webkit-animation-iteration-count: infinite
+          animation-iteration-count: infinite
+          -webkit-animation-name: glitch
+          animation-name: glitch
+          -webkit-animation-timing-function: ease-in-out
+          animation-timing-function: ease-in-out
+    

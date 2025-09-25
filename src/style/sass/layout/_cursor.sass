@@ -1,0 +1,91 @@
+@use '../utils/_animations' as *
+*,
+a,
+button,
+input,
+textarea,
+select,
+[contenteditable]
+  cursor: none !important
+
+.cursor-dot
+  position: fixed
+  width: 10px
+  height: 10px
+  border-radius: 100%
+  background: #9e9d9d
+  pointer-events: none
+  z-index: 10000
+  transform: translate(-50%, -50%)
+  @media screen and ( max-width: 1023px )
+    display: none
+
+.cursor-aura
+  position: fixed
+  width: 34px
+  height: 34px
+  border-radius: 50%
+  background: rgba(#fff, 0.08)
+  pointer-events: none
+  z-index: 9999
+  transform: translate(-50%, -50%)
+  filter: blur(1px)
+  @media screen and ( max-width: 1023px )
+    display: none
+
+.cursor-outline
+  position: fixed
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  border: 1px solid rgba(#fff, 0.95)
+  pointer-events: none
+  z-index: 9998
+  transform-origin: center
+  transform: translate(-50%, -50%) scale(1)
+  transition: transform 0.2s ease, border-color 0.15s ease
+  @media screen and ( max-width: 1023px )
+    display: none
+
+.wave
+  position: fixed   
+  width: 80px
+  height: 80px
+  border-radius: 50%
+  pointer-events: none
+  display: none
+  z-index: 9999
+  @media screen and ( max-width: 1023px )
+    display: none
+
+.wave .shape
+  position: absolute
+  opacity: 0
+
+.wave .shape.circle
+  border-radius: 50%
+  animation: click-animation-circle 3s ease-out
+  z-index: 9999
+
+.wave .shape.circle.big
+  width: 40px
+  height: 40px
+  border: 1px solid rgba(0,0,0,.2)
+
+.wave .shape.circle.small
+  width: 20px
+  height: 20px
+  border: 1px solid rgba(0,0,0,.2)
+
+.wave--clone
+  display: block
+  border: 2px solid rgba(#38343460, 1)
+  border-radius: 50%
+  width: 80px
+  height: 80px
+  position: fixed   
+  pointer-events: none
+  animation: waveAnim 0.9s ease-out forwards
+  z-index: 9999
+
+

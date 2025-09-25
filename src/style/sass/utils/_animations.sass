@@ -1,0 +1,139 @@
+
+@keyframes scrollDown 
+  0% 
+    opacity: 1
+    transform: translateX(-50%) translateY(0)
+
+  50% 
+    opacity: 0.5
+    transform: translateX(-50%) translateY(15px)
+
+  100% 
+    opacity: 0
+    transform: translateX(-50%) translateY(25px)
+
+// controla la flecha de mouse de home
+@keyframes blink-caret
+  0%, 100%
+    opacity: 0
+  50%
+    opacity: 1
+
+@keyframes rotate-right
+  0%
+    transform: rotate(0)
+  80%
+    transform: rotate(0)
+  100%
+    transform: rotate(-90deg)
+
+@keyframes move-left
+  0% 
+      transform: translate(0)
+  100% 
+      transform: translate(100px)
+
+@keyframes move-right
+  0% 
+      transform: translate(0)
+
+  100% 
+      transform: translate(-100px)
+
+@keyframes move-down
+  0%
+    transform: translateY(0)
+  100%
+    transform: translateY(100px)
+
+@keyframes move-up
+  0%
+    transform: translateY(0)
+  100%
+    transform: translateY(-20px)
+
+@keyframes displace
+  0% 
+    translate: -800% 0
+  100%
+    translate: 800% 
+
+@keyframes pulse
+  0% 
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scaleZ(1)
+  50%
+    -webkit-transform: scale3d(1.05, 1.05, 1.05)
+    transform: scale3d(1.05, 1.05, 1.05)
+  
+  100% 
+    -webkit-transform: scale3d(1, 1, 1)
+    transform: scaleZ(1)
+    
+        
+@keyframes rotate
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+
+
+@keyframes glitch
+  0%
+    transform: translate(0)
+    opacity: 1
+  15%
+    transform: translate(-2px, 2px)
+    opacity: .8
+  30% 
+    transform: translate(2px, -2px)
+    opacity: 1
+  45% 
+    transform: translate(-2px, -1px)
+    opacity: .9
+  60% 
+    transform: translate(1px, 2px)
+    opacity: 1
+  75% 
+    transform: translate(0)
+    opacity: 1
+    
+@keyframes orbit 
+  0%
+    transform: rotate(0) translate(-120px) rotate(0)
+  100%
+    transform: rotate(360deg) translate(-100px) rotate(-360deg)
+
+@keyframes click-animation-circle
+  0%
+    opacity: 0
+  5%
+    opacity: 1
+  30%
+    opacity: 0
+
+@keyframes waveAnim
+  0%
+    transform: scale(0)
+    opacity: 0.6
+  100%
+    transform: scale(2.5)
+    opacity: 0
+    
+
+ 
+@keyframes blink-animation
+  0%
+    opacity: 0
+
+@keyframes side-before-out
+  0%
+    transform: translateY(0)
+  to
+    transform: translateY(-100%)
+
+@keyframes side-after-out
+  0%
+    transform: translateY(0)
+  to
+    transform: translateY(100%)

@@ -1,0 +1,75 @@
+@use '../base/_fonts' as *
+.section_skills
+    height: 100%
+    align-content: center
+    justify-items: center
+    margin-top: 4rem
+    @media screen and ( max-width: 767px )
+        scroll-margin-top: 10px
+    .container_skills
+        display: flex
+        margin-top: 4rem
+        flex-direction: column
+        align-items: center
+        width: 100%
+        max-width: 1000px
+        gap: 2rem
+        .container_title
+            text-align: center
+            letter-spacing: .1rem
+            h2
+                font-size: 1rem
+            h3
+                font-size: 1.2rem
+            @media screen and ( min-width:425px  )
+                h2
+                    font-size: 1.3rem
+                h3
+                    font-size: 1.8rem
+            @media screen and ( min-width:1024px  )
+                h2
+                    font-size: 2rem
+                h3
+                    font-size: 3.6rem
+        .container_herramientas
+            display: flex
+            flex-direction: column
+            gap: 4rem
+            margin-top: 2rem
+            padding: 0 2rem
+            .skills_group
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                gap: 1rem
+                width: 100%
+                .skills_logo
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: space-between
+                    padding: .8rem
+                    width: 140px
+                    height: 140px
+                    background-color: #0000000d
+                    border: 1px solid #fff
+                    border-radius: 20%
+                    position: relative
+                    overflow: hidden
+                    transition: transform 0.3s ease, border-color 0.3s ease
+                    
+                    &:hover
+                        transform: translateY(-.5rem)
+                        img
+                            opacity: 1
+                    span
+                        font-family: $letra-parrafo
+                        font-size: .8rem
+                        font-weight: 600
+                        letter-spacing: .1rem
+                        text-align: center
+                    img
+                        width: 70%
+                        opacity: .8
+                        
+                        
