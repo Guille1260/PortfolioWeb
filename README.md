@@ -30,7 +30,6 @@ Estas son algunas de las mejoras que estoy planeando implementar en el portafoli
 
 - [ ] Añadir una sección de **blog** (sera un proyecto aparte).  
 - [ ] implementacion de un loader al inicio y al cambiar el idioma.  
-- [ ] Darle funcionalidad al formulario de contacto.  
 - [ ] Optimizar aún más el SEO con meta-etiquetas personalizadas y Open Graph.  
 - [ ] Optimizar y limpiar codigo.  
 - [ ] Integrar Google Analytics o una herramienta similar para estadísticas de visitas.  
@@ -60,9 +59,9 @@ Estas son algunas de las mejoras que estoy planeando implementar en el portafoli
 ¿Quieres ponerte en contacto conmigo? 🚀  
 Puedes escribirme o seguirme en cualquiera de estas plataformas:
 
-- 📧 **Email:** [guillermo1260@example.com](mailto:guillermocesaracuna1260@gmail.com)  
-- 💻 **GitHub:** [github.com/guillermo1260](https://github.com/Guille1260)  
+- 📧 **Email:** [Guillermo1260](mailto:guillermocesaracuna1260@gmail.com)  
+- 💻 **GitHub:** [Guille1260](https://github.com/Guille1260)  
 - 🌐 **Portfolio:** [portfolio en vivo](https://portfolio-fz17x3ql6-guillermo1260s-projects.vercel.app/)  
-- 💼 **LinkedIn:** [linkedin.com/in/guillermo1260](https://www.linkedin.com/in/guillermo-cesar-acu%C3%B1a-b04274295/)  
+- 💼 **LinkedIn:** [Guillermo Cesar Acuña](https://www.linkedin.com/in/guillermo-cesar-acu%C3%B1a-b04274295/)  
 
 ---

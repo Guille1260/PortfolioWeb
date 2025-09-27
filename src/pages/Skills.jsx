@@ -33,8 +33,7 @@ const Skills = () => {
       { name: "MySQL", icon: MySQ },
       { name: "Java", icon: Java },
       { name: "Node.js", icon: Nodejs },
-      { name: "MongoDB", icon: MongoDB },
-      { name: "Postman", icon: Postman }
+      { name: "MongoDB", icon: MongoDB }
     ]
   };
   useEffect(() => {
@@ -51,19 +50,9 @@ const Skills = () => {
 
         <article className="container_herramientas">
           {Object.entries(skillsData).map(([category, skillList], i) => (
-            <div
-              key={category}
-              className="skills_group"
-              data-aos={i === 0 ? "fade-down-right" : "fade-down-left"}
-              data-aos-duration="5000"
-            >
+            <div  key={category} className="skills_group"  data-aos={i === 0 ? "fade-down-right" : "fade-down-left"} data-aos-duration="5000" >
               {skillList.map((skill) => (
-                <Skill_logo
-                  key={skill.name}
-                  name={skill.name}
-                  icon={skill.icon}
-                  data-aos="flip-left"
-                />
+                <Skill_logo key={skill.name} name={skill.name} icon={skill.icon} data-aos="flip-left"/>
               ))}
             </div>
           ))}

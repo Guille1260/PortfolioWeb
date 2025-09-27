@@ -9,7 +9,7 @@ import { useTheme } from "../context/ThemeContext.jsx";
 import Btn_menu_movil from "../components/ui/Btn_menu_movil.jsx";
 import Main_decoration from "../components/decoration/Main_decoration.jsx";
 import { useTranslation } from "react-i18next";
-
+import ruta from "../../public/assets/curriculum/Guillermo_IT.pdf"
 const Home = () => {
   const {t} = useTranslation()
   const { theme } = useTheme();
@@ -96,7 +96,9 @@ const Home = () => {
             data-aos="flip-down"
             data-aos-duration="2000"
           >
-            <a href="">{t('download_cv')}</a>
+           <a href={ruta}  download="Guillermo_IT.pdf">
+              {t('download_cv')}
+            </a>
           </article>
         </div>
         <div

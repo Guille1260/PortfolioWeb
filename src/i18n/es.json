@@ -21,34 +21,33 @@
  "services": {
   "title": "Superpoderes",
   "subtitle": "Fortalezas y compromiso"
-},
-"cards": {
-  "teamwork": {
-    "title": "Trabajo en equipo y comunicación",
-    "description": "Disfruto colaborar en entornos dinámicos, fomentando la confianza y manteniendo una comunicación clara para que todos avancemos en la misma dirección."
   },
-  "problemSolving": {
-    "title": "Resolución de problemas",
-    "description": "Enfrento cada reto con creatividad y pensamiento analítico, buscando soluciones prácticas que generen un impacto positivo."
-  },
-  "adaptability": {
-    "title": "Adaptabilidad y aprendizaje continuo",
-    "description": "Me adapto con facilidad a nuevas tecnologías y entornos, siempre con curiosidad y entusiasmo por aprender y crecer profesionalmente."
+  "cards": {
+    "teamwork": {
+      "title": "Trabajo en equipo y comunicación",
+      "description": "Disfruto colaborar en entornos dinámicos, fomentando la confianza y manteniendo una comunicación clara para que todos avancemos en la misma dirección."
     },
-  "quality": {
-    "title": "Compromiso con la calidad",
-    "description": "Cuido cada detalle de mi trabajo para asegurar resultados sólidos, consistentes y con altos estándares de excelencia."
+    "problemSolving": {
+      "title": "Resolución de problemas",
+      "description": "Enfrento cada reto con creatividad y pensamiento analítico, buscando soluciones prácticas que generen un impacto positivo."
+    },
+    "adaptability": {
+      "title": "Adaptabilidad y aprendizaje continuo",
+      "description": "Me adapto con facilidad a nuevas tecnologías y entornos, siempre con curiosidad y entusiasmo por aprender y crecer profesionalmente."
+      },
+    "quality": {
+      "title": "Compromiso con la calidad",
+      "description": "Cuido cada detalle de mi trabajo para asegurar resultados sólidos, consistentes y con altos estándares de excelencia."
+    },
+    "timelyDelivery": {
+      "title": "Entrega puntual de proyectos",
+      "description": "Soy organizado , garantizando entregas a tiempo sin comprometer la calidad."
+    },
+    "businessValue": {
+      "title": "Enfoque en el valor para el negocio",
+      "description": "Más allá del código, busco crear soluciones que aporten valor real, potencien resultados y generen beneficios tangibles para la empresa."
+    }
   },
-  "timelyDelivery": {
-    "title": "Entrega puntual de proyectos",
-    "description": "Soy organizado y meticuloso con los plazos, garantizando entregas a tiempo sin comprometer la calidad."
-  },
-  "businessValue": {
-    "title": "Enfoque en el valor para el negocio",
-    "description": "Más allá del código, busco crear soluciones que aporten valor real, potencien resultados y generen beneficios tangibles para la empresa."
-  }
-}
-,
   "skills": {
     "title": "Habilidades",
     "subtitle": "Tecnologías y Herramientas"

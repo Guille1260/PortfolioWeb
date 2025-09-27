@@ -9,7 +9,6 @@ import badgeIcon from "../../public/assets/icons/award.svg";
 import clockIcon from "../../public/assets/icons/clock.svg";
 import rocketIcon from "../../public/assets/icons/rocket.svg";
 
-// Configuración de servicios en un array
 const servicesConfig = [
   { key: "teamwork", icon: userIcon },
   { key: "problemSolving", icon: puzzleIcon },

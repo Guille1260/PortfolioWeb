@@ -20,15 +20,14 @@ const Contact = () => {
                   <div className='container_avatar' data-aos="fade-right" data-aos-duration="2000">
                     <img src={avatar} alt="" />
                   </div>
-                  
                   <div className="container_redes"data-aos="fade-right" data-aos-duration="2000" >
-                    <a href="" > <img src={gmail} alt="" /></a>
+                    <a href="mailto:guillermocesaracuna1260@gmail.com?subject=Contacto%20desde%20Portfolio&body=Hola%20Guillermo,%20me%20gustaría%20saber%20más%20sobre%20tu%20trabajo." >
+                      <img src={gmail} alt="Enviar correo" />
+                    </a>
                     <a href="https://www.linkedin.com/in/guillermo-cesar-acuña-b04274295" target="_blank" rel="noopener noreferrer">
                       <img src={linkedin} alt="LinkedIn" />
                     </a>
-
                   </div>
-                  
                 </article>
             </article>
             <article className="contact_right" >

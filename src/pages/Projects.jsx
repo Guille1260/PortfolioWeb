@@ -22,15 +22,15 @@ const projectsConfig = [
     git: "https://github.com/Guille1260/TF-JS-Coder.git",
     proyect: "https://guille1260.github.io/TF-JS-Coder/"
   },
-  {
-    key: "deltaSport2",
-    cover: deltaCover,
-    skills: [
-      { src: jsIcon, alt: "Javascript" }
-    ],
-    git: "https://github.com/Guille1260/AnotherProject.git",
-    proyect: "https://guille1260.github.io/AnotherProject/"
-  }
+  // {
+  //   key: "deltaSport2",
+  //   cover: deltaCover,
+  //   skills: [
+  //     { src: jsIcon, alt: "Javascript" }
+  //   ],
+  //   git: "https://github.com/Guille1260/AnotherProject.git",
+  //   proyect: "https://guille1260.github.io/AnotherProject/"
+  // }
 ];
 const Projects = () => {
   const { t } = useTranslation();
