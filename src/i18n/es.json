@@ -15,7 +15,7 @@
   
   "aboutme": {
     "title": "¿Quién soy?",
-    "paragraph1": "Soy estudiante avanzado de Ingeniería en Sistemas de Información en la UTN – Facultad Regional Tucumán. A lo largo de mi formación también me capacité en desarrollo web Full Stack en Code House y realicé cursos de Python con Django y MySQL. Mi lenguaje principal es Python, con el que trabajé en análisis de datos, desarrollo web y sistemas de escritorio.",
+    "paragraph1": "Soy estudiante avanzado de Ingeniería en Sistemas de Información en la UTN – Facultad Regional Tucumán. A lo largo de mi formación también me capacité en desarrollo web Full Stack en CoderHouse y realicé cursos de Python con Django y MySQL. Mi lenguaje principal es Python, con el que trabajé en análisis de datos, desarrollo web y sistemas de escritorio.",
     "paragraph2": "Me apasiona la tecnología y disfruto crear proyectos funcionales y bien pensados. Actualmente estoy enfocando mi camino hacia la ciberseguridad, un área que me entusiasma mucho y en la que quiero seguir formándome para especializarme. Me considero autodidacta, curioso y comprometido con el aprendizaje continuo."
   },
  "services": {
