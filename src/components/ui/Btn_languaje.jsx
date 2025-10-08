@@ -3,9 +3,9 @@ import i18next from "i18next";
 
 const Btn_languaje = () => {
   const changeLang = (lng) => {
-    i18next.changeLanguage(lng);          // Cambia el idioma en i18next
-    localStorage.setItem("lang", lng);    // Guarda el idioma seleccionado
-    window.location.reload();             // Recarga la página
+    i18next.changeLanguage(lng);          
+    localStorage.setItem("lang", lng);    
+    window.location.reload();            
   };
 
   return (

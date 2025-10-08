@@ -5,7 +5,6 @@ const Project_items = ({ nombre, p1, p2, skills = [], git, proyect, cover }) => 
   return (
     <div className="item_projects" data-aos="zoom-in-up">
       <article className="project_box">
-        {/* Imagen de portada dinámica */}
         <img
           src={cover || "/src/assets/images/default_cover.jpg"}
           alt={`Portada de ${nombre}`}
@@ -19,7 +18,6 @@ const Project_items = ({ nombre, p1, p2, skills = [], git, proyect, cover }) => 
       </article>
 
       <article className="project_details">
-        {/* Skills dinámicas */}
         <div className="projects_icon">
           {skills.map((skill, index) => (
             <img
@@ -32,7 +30,6 @@ const Project_items = ({ nombre, p1, p2, skills = [], git, proyect, cover }) => 
           ))}
         </div>
 
-        {/* Botones dinámicos */}
         <article className="container_links">
           <div className="btns_links">
             {git && (

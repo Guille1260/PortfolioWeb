@@ -17,7 +17,6 @@ import Nodejs from '/assets/skills/node-js.svg'
 import Postman from '/assets/skills/postman.svg'
 const Skills = () => {
   const { t } = useTranslation();
-  // Datos de skills directamente en JSX
   const skillsData = {
     Frontend: [
       { name: "HTML", icon: html },

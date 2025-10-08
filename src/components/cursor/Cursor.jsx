@@ -7,7 +7,6 @@ const Cursor = () => {
   const cursorWave = useRef(null);
 
   useEffect(() => {
-    // No inicializar en móviles, tablets o pantallas pequeñas
     if ("ontouchstart" in window || window.innerWidth < 1204) return;
 
     let mouseX = window.innerWidth / 2;

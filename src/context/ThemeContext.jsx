@@ -4,7 +4,6 @@ const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
-    // Detectar el tema preferido del usuario
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) return savedTheme;
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -27,5 +26,4 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
-// Hook personalizado para usar el contexto
 export const useTheme = () => useContext(ThemeContext);

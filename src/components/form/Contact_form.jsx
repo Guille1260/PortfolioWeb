@@ -16,7 +16,7 @@ const Contact_form = () => {
             text: "Tu mensaje se ha enviado correctamente.",
             confirmButtonText: "Ok",
             confirmButtonColor: "#5a4848ff",
-            background: "#424242",        // Fondo
+            background: "#424242",       
             color: "#fffdfdff",
           });
           e.target.reset(); 
@@ -28,7 +28,7 @@ const Contact_form = () => {
             text: "No se pudo enviar el mensaje. Intenta de nuevo más tarde.",
             confirmButtonText: "Ok",
             confirmButtonColor: "#5a4848ff",
-            background: "#424242",        // Fondo
+            background: "#424242",       
             color: "#333",
           });
         }

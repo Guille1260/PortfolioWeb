@@ -43,13 +43,13 @@ const Certificates = () => {
           slidesPerView={1}
           navigation
           pagination={{ clickable: false }}
-          simulateTouch={true}   // 👈 permite arrastrar con mouse
-          grabCursor={true}      // 👈 cursor tipo "mano" al pasar
+          simulateTouch={true}   
+          grabCursor={true}      
           autoplay={{ delay: 3000 }}
           loop={true}
           breakpoints={{
-            768: { slidesPerView: 2 }, // Tablet
-            1024: { slidesPerView: 2 }, // Desktop
+            768: { slidesPerView: 2 }, 
+            1024: { slidesPerView: 2 }, 
           }}
           className="container_card" data-aos="zoom-in-up" data-aos-duation="2000"
         >

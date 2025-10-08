@@ -66,7 +66,7 @@ const Home = () => {
                   typewriter
                     .pauseFor(2000)
                     .typeString(t('role'))
-                    .start(); // escribe el texto y se queda fijo
+                    .start(); 
                 }}
                 options={{
                   autoStart: true,
@@ -82,7 +82,7 @@ const Home = () => {
                   typewriter
                     .pauseFor(2000)
                     .typeString(t('role'))
-                    .start(); // escribe el texto y se queda fijo
+                    .start();
                 }}
                 options={{
                   autoStart: true,

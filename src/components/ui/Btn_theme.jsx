@@ -1,7 +1,7 @@
 import React from 'react';
 import sun from '../../../public/assets/icons/sun.svg';
 import moon from '../../../public/assets/icons/moon.svg';
-import { useTheme } from '../../context/ThemeContext'; // ajusta la ruta si es necesario
+import { useTheme } from '../../context/ThemeContext'; 
 
 const Btn_theme = () => {
   const { theme, toggleTheme } = useTheme();

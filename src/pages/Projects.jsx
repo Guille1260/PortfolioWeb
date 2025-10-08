@@ -8,7 +8,6 @@ import jsIcon from "../../public/assets/skills/javascript.svg";
 import cssIcon from "../../public/assets/skills/css_old.svg";
 import htmlIcon from "../../public/assets/skills/html5.svg";
 
-// Configuración de proyectos (cada uno con sus propias skills, git y proyect)
 const projectsConfig = [
   {
     key: "deltaSport1",

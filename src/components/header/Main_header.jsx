@@ -11,7 +11,7 @@ const Main_header = () => {
   function handleClick() {
     setIsMenuOpen(prev => !prev);
   }
-  // Nueva función para cerrar el menú
+  
   function handleCloseMenu() {
     setIsMenuOpen(false);
   }
