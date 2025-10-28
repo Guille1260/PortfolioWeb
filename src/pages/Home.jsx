@@ -9,7 +9,7 @@ import { useTheme } from "../context/ThemeContext.jsx";
 import Btn_menu_movil from "../components/ui/Btn_menu_movil.jsx";
 import Main_decoration from "../components/decoration/Main_decoration.jsx";
 import { useTranslation } from "react-i18next";
-import ruta from "../../public/assets/curriculum/Guillermo_IT.pdf"
+import ruta from "../../public/assets/curriculum/Guillermo_Acuña_IT.pdf"
 const Home = () => {
   const {t} = useTranslation()
   const { theme } = useTheme();
